@@ -1,5 +1,7 @@
 public class Variable {
 	public static void main (String [] args){
+		// TODO: прописать конфигурацию ПК через примитивные типы данных
+
 	byte core = 4;
 	double coreSpeed = 3.8;
 	byte ram = 8;
