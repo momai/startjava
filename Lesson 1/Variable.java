@@ -1,4 +1,4 @@
-public class Variable {
+ï»¿public class Variable {
 	public static void main (String [] args){
 	byte core = 4;
 	double coreSpeed = 3.8;
@@ -7,9 +7,9 @@ public class Variable {
 	
 	System.out.println("PC info: ");
     System.out.println("_________");
-	System.out.println("ßäåğ: " + core);
-	System.out.println("×àñòîòà: " + coreSpeed);
-	System.out.println("ÎÇÓ: " + ram);
+	System.out.println("Ğ¯Ğ´ĞµÑ€: " + core);
+	System.out.println("Ğ§Ğ°ÑÑ‚Ğ¾Ñ‚Ğ°: " + coreSpeed);
+	System.out.println("ĞĞ—Ğ£: " + ram);
 	System.out.println("HDD: " + storage);
 	}
 }
