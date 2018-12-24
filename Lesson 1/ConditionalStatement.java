@@ -1,37 +1,37 @@
-public class ConditionalStatement {
+п»їpublic class ConditionalStatement {
 	public static void main(String[] args) {
 		
 		short year = 2018;
 		short birthday = 1990;
 		char sex = 'M';
 		double height = 1.75;
-		char name = 'А';
+		char name = 'Рђ';
 		
-		//почему нельзя использовать short?
+		//РїРѕС‡РµРјСѓ РЅРµР»СЊР·СЏ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ short?
 		int age = year - birthday;
 		if(age > 20) {
-			System.out.println("20 лет");
+			System.out.println("20 Р»РµС‚");
 		}
 
-		if(sex == 'М') {
-			System.out.println("пол: мужской");
+		if(sex == 'Рњ') {
+			System.out.println("РїРѕР»: РјСѓР¶СЃРєРѕР№");
 		}
-		if(sex == 'Ж') {
-			System.out.println("пол: женский");
+		if(sex == 'Р–') {
+			System.out.println("РїРѕР»: Р¶РµРЅСЃРєРёР№");
 		}
 
 		if(height < 1.80) {
-			System.out.println("Коротышка");
+			System.out.println("РљРѕСЂРѕС‚С‹С€РєР°");
 		} else {
-			System.out.println("Длинноног");
+			System.out.println("Р”Р»РёРЅРЅРѕРЅРѕРі");
 		}
 
-		if(name == 'М') {
-			System.out.println("Морти?");
-			else if (name == 'И') {
-				System.out.println("Илон?");
+		if(name == 'Рњ') {
+			System.out.println("РњРѕСЂС‚Рё?");
+			else if (name == 'Р') {
+				System.out.println("РР»РѕРЅ?");
 			} else {
-				System.out.println("Ты не тот кто нужен");
+				System.out.println("РўС‹ РЅРµ С‚РѕС‚ РєС‚Рѕ РЅСѓР¶РµРЅ");
 			}
 		}
 
