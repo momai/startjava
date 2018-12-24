@@ -3,7 +3,7 @@ public class ConditionalStatement {
 		
 		short year = 2018;
 		short birthday = 1990;
-		char sex = 'M';
+		char sex = 'М';
 		double height = 1.75;
 		char name = 'А';
 		
