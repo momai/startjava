@@ -7,7 +7,6 @@ public class ConditionalStatement {
 		double height = 1.75;
 		char name = 'А';
 		
-		//почему нельзя использовать short?
 		int age = year - birthday;
 		if(age > 20) {
 			System.out.println("20 лет");
@@ -30,7 +29,7 @@ public class ConditionalStatement {
 			System.out.println("Морти?");
 		} else if(name == 'И') {
 				System.out.println("Илон?");
-		} else{
+		} else {
 				System.out.println("Ты не тот кто нужен");
 			}
 		}
