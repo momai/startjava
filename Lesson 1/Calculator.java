@@ -23,7 +23,7 @@ public class Calculator {
 			result = x / y;
 			System.out.println(result);
 		}
-		// рассчет процента от числа, 'x' число, 'y' процент
+		// расчет процента от числа, 'x' число, 'y' процент
 		else if (s == '%'){ 
 			result = x * y / 100;
 			System.out.println(result);
