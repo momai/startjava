@@ -16,7 +16,7 @@ public class Calculator {
 			System.out.println(x%y);
 		} else if (s == '^') {
 			long result = 1;
-			for ( int i = 1; i <= y; i++) {
+			for (int i = 1; i <= y; i++) {
 				result = result * x;
 			}
 			System.out.println(result);
