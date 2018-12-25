@@ -1,7 +1,7 @@
 public class Calculator {
 	public static void main(String[] args) {
 		int x = 2;
-		int y = 4;
+		int y = 8;
 		char s = '^';
 
 		if (s == '+') {
@@ -15,12 +15,10 @@ public class Calculator {
 		} else if (s == '%') { 
 			System.out.println(x%y);
 		} else if (s == '^') {
-			int i = 1;
 			long result = 1;
-			do {
+			for ( int i = 1; i <= y; i++) {
 				result = result * x;
-				i++;
-			} while (i <= y);
+			}
 			System.out.println(result);
 		}
 	}
