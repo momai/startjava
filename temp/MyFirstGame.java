@@ -3,11 +3,15 @@ public class MyFirstGame {
 		// java
 		byte x = 40;
 		// you
-		byte y = 10;
+		byte y = 50;
 
 		if (x < y) {
+			for(int i = 0; i < x; i++) {
 			int diff = y - x;
 			System.out.println("¬веденное вами число больше того, что загадал компьютер на " + diff);
+			y--;
+			}
+
 		} else if(x > y) {
 			int diff = x - y;
 			System.out.println("¬веденное вами число меньше того, что загадал компьютер на " + diff);
