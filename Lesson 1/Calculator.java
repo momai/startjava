@@ -35,7 +35,6 @@ public class Calculator {
 			do {			
 				sum = sum * x;
 				j++;
-				// System.out.println(sum);
 			} 
 		 	while (j <= y);
 		 	sum = sum / x;
