@@ -1,22 +1,61 @@
 public class MyFirstGame {
 	public static void main(String[] args) {
 		// java
-		byte x = 40;
+		byte x = 33;
 		// you
-		byte y = 50;
+		byte y = 28;
 
-		if (x < y) {
-			for(int i = 0; i < x; i++) {
-			int diff = y - x;
-			System.out.println("Введенное вами число больше того, что загадал компьютер на " + diff);
-			y--;
+
+		int i = y;
+		if (i < x) {
+			while (i < x) {
+				int diff = x - i;
+				System.out.println("Введенное вами число меньше того, что загадал компьютер на " + diff);
+				i++;
+					if(i == x) {
+						System.out.println("Вы угадали!" + i);
+					}
 			}
-
-		} else if(x > y) {
-			int diff = x - y;
-			System.out.println("Введенное вами число меньше того, что загадал компьютер на " + diff);
-		}  else if(x == y) {
-			System.out.println("Вы угадали!");
 		}
+		else if ( i > x) {
+			while (i > x) {
+				int diff = i - x;
+				System.out.println("Введенное вами число БОЛЬШЕ того, что загадал компьютер на " + diff);
+				i--;
+					if(i == x) {
+					System.out.println("Вы угадали! " + i);
+					}
+			}
+		}
+		if(x == y) {
+			System.out.println("Вы точно подглядели! " + y);
+		}		
+
+
+
+		// СТАРЫЙ ВАРИАНТ
+		// // если я загадал меньше		
+		// int i = y;
+		// while (i < x) {
+		// 	int diff = x - i;
+		// 	System.out.println("Введенное вами число меньше того, что загадал компьютер на " + diff);
+		// 	i++;
+		// 	if(i == x) {
+		// 			System.out.println("Вы угадали!" + i);
+		// 	}
+		// }
+			
+		// // если я загадал больше		
+		// int j = y;
+		// while (j > x) {
+		// 	int diff = j - x;
+		// 	System.out.println("Введенное вами число БОЛЬШЕ того, что загадал компьютер на " + diff);
+		// 	j--;
+		// 	if(j == x) {
+		// 		System.out.println("Вы угадали! " + j);
+		// 	}
+		// }
+
+
 	}
 }
