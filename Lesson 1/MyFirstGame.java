@@ -13,7 +13,7 @@ public class MyFirstGame {
 				System.out.println("Введенное вами число меньше того, что загадал компьютер на " + diff);
 				i++;
 					if(i == x) {
-						System.out.println("Вы угадали!" + i);
+						System.out.println("Вы угадали! " + i);
 					}
 			}
 		}
