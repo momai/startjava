@@ -1,58 +1,58 @@
 public class MyFirstGame {
 	public static void main(String[] args) {
 		// java
-		byte x = 33;
+		byte pc = 33;
 		// you
-		byte y = 28;
+		byte player = 28;
 
 
-		int i = y;
-		if (i < x) {
+		int i = player;
+		if (i < pc) {
 			while (i < x) {
-				int diff = x - i;
-				System.out.println("Введенное вами число меньше того, что загадал компьютер на " + diff);
+				int diff = pc - i;
+				System.out.println("Р’РІРµРґРµРЅРЅРѕРµ РІР°РјРё С‡РёСЃР»Рѕ РјРµРЅСЊС€Рµ С‚РѕРіРѕ, С‡С‚Рѕ Р·Р°РіР°РґР°Р» РєРѕРјРїСЊСЋС‚РµСЂ РЅР° " + diff);
 				i++;
-					if(i == x) {
-						System.out.println("Вы угадали! " + i);
+					if(i == pc) {
+						System.out.println("Р’С‹ СѓРіР°РґР°Р»Рё! " + i);
 					}
 			}
 		}
-		else if ( i > x) {
-			while (i > x) {
-				int diff = i - x;
-				System.out.println("Введенное вами число БОЛЬШЕ того, что загадал компьютер на " + diff);
+		else if ( i > pc) {
+			while (i > pc) {
+				int diff = i - pc;
+				System.out.println("Р’РІРµРґРµРЅРЅРѕРµ РІР°РјРё С‡РёСЃР»Рѕ Р‘РћР›Р¬РЁР• С‚РѕРіРѕ, С‡С‚Рѕ Р·Р°РіР°РґР°Р» РєРѕРјРїСЊСЋС‚РµСЂ РЅР° " + diff);
 				i--;
-					if(i == x) {
-					System.out.println("Вы угадали! " + i);
+					if(i == pc) {
+					System.out.println("Р’С‹ СѓРіР°РґР°Р»Рё! " + i);
 					}
 			}
 		}
-		if(x == y) {
-			System.out.println("Вы точно подглядели! " + y);
+		if(pc == player) {
+			System.out.println("Р’С‹ С‚РѕС‡РЅРѕ РїРѕРґРіР»СЏРґРµР»Рё! " + y);
 		}		
 
 
 
-		// СТАРЫЙ ВАРИАНТ
-		// // если я загадал меньше		
+		// РЎРўРђР Р«Р™ Р’РђР РРђРќРў
+		// // РµСЃР»Рё СЏ Р·Р°РіР°РґР°Р» РјРµРЅСЊС€Рµ		
 		// int i = y;
 		// while (i < x) {
 		// 	int diff = x - i;
-		// 	System.out.println("Введенное вами число меньше того, что загадал компьютер на " + diff);
+		// 	System.out.println("Р’РІРµРґРµРЅРЅРѕРµ РІР°РјРё С‡РёСЃР»Рѕ РјРµРЅСЊС€Рµ С‚РѕРіРѕ, С‡С‚Рѕ Р·Р°РіР°РґР°Р» РєРѕРјРїСЊСЋС‚РµСЂ РЅР° " + diff);
 		// 	i++;
 		// 	if(i == x) {
-		// 			System.out.println("Вы угадали!" + i);
+		// 			System.out.println("Р’С‹ СѓРіР°РґР°Р»Рё!" + i);
 		// 	}
 		// }
 			
-		// // если я загадал больше		
+		// // РµСЃР»Рё СЏ Р·Р°РіР°РґР°Р» Р±РѕР»СЊС€Рµ		
 		// int j = y;
 		// while (j > x) {
 		// 	int diff = j - x;
-		// 	System.out.println("Введенное вами число БОЛЬШЕ того, что загадал компьютер на " + diff);
+		// 	System.out.println("Р’РІРµРґРµРЅРЅРѕРµ РІР°РјРё С‡РёСЃР»Рѕ Р‘РћР›Р¬РЁР• С‚РѕРіРѕ, С‡С‚Рѕ Р·Р°РіР°РґР°Р» РєРѕРјРїСЊСЋС‚РµСЂ РЅР° " + diff);
 		// 	j--;
 		// 	if(j == x) {
-		// 		System.out.println("Вы угадали! " + j);
+		// 		System.out.println("Р’С‹ СѓРіР°РґР°Р»Рё! " + j);
 		// 	}
 		// }
 
