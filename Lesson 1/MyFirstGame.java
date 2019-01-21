@@ -23,7 +23,7 @@ public class MyFirstGame {
 				System.out.println("Вы угадали! " + you);
 
 
-
+		//хуевый вариант
 		// else if ( i > pc) {
 		// 	while (i > pc) {
 		// 		int diff = i - pc;
