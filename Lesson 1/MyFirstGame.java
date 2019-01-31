@@ -15,6 +15,6 @@ public class MyFirstGame {
                     i++;
                 }
             }
-                System.out.println("Вы угадали! " + pcNumber);
+            System.out.println("Вы угадали! " + pcNumber);
     }
 }
