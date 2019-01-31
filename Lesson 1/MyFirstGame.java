@@ -1,15 +1,13 @@
 public class MyFirstGame {
     public static void main(String[] args) {
-        byte pcNumber = 55;
+        byte pcNumber = 49;
         byte yourNumber = 48;
             while (pcNumber != yourNumber) {
                 if (yourNumber < pcNumber) {
-                    int diff = pcNumber - yourNumber;
                     System.out.println("¬ведЄнное вами число меньше того, что загадал компьютер");
                     pcNumber--;
                 }
                 else if (yourNumber > pcNumber) {
-                    int diff = yourNumber - pcNumber;
                     System.out.println("¬ведЄнное вами число ЅќЋ№Ў≈ того, что загадал компьютер");
                     pcNumber++;
                 }
