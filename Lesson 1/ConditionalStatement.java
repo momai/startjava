@@ -5,8 +5,8 @@ public class ConditionalStatement {
 		char sex = 'М';
 		double height = 1.75;
 		char name = 'А';
-		
 		int age = year - birthday;
+		
 		if(age > 20) {
 			System.out.println("20 лет");
 		}

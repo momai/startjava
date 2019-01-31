@@ -15,12 +15,12 @@ public class Cycle {
 		// сумма всех нечетных чисел от 10 до 20
 			int j = 10;
 			int sum = 0;
-			do {			
+			do {
 				if(j % 2 != 0) {
 					// так писать не правильно
 					// sum = sum + j;
 					sum += j;
-				}					
+				}
 				j++;
 			} while (j <= 20);
 			System.out.println(sum);
