@@ -1,20 +1,34 @@
 public class MyFirstGame {
     public static void main(String[] args) {
-        byte pcNumber = 45;
-        byte youNumber = 48;
-            int i = pcNumber;
-            while (i != youNumber) {
-                if (youNumber < i) {
-                    int diff = i - youNumber;
-                    System.out.println("Р’РІРµРґС‘РЅРЅРѕРµ РІР°РјРё С‡РёСЃР»Рѕ РјРµРЅСЊС€Рµ С‚РѕРіРѕ, С‡С‚Рѕ Р·Р°РіР°РґР°Р» РєРѕРјРїСЊСЋС‚РµСЂ РЅР° " + diff);
-                    i--;
+        byte pcNumber = 55;
+        byte yourNumber = 48;
+            while (pcNumber != yourNumber) {
+                if (yourNumber < pcNumber) {
+                    int diff = pcNumber - yourNumber;
+                    System.out.println("Введённое вами число меньше того, что загадал компьютер");
+                    pcNumber--;
                 }
-                else if (youNumber > i) {
-                    int diff = youNumber - i;
-                    System.out.println("Р’РІРµРґС‘РЅРЅРѕРµ РІР°РјРё С‡РёСЃР»Рѕ Р‘РћР›Р¬РЁР• С‚РѕРіРѕ, С‡С‚Рѕ Р·Р°РіР°РґР°Р» РєРѕРјРїСЊСЋС‚РµСЂ РЅР° " + diff);
-                    i++;
+                else if (yourNumber > pcNumber) {
+                    int diff = yourNumber - pcNumber;
+                    System.out.println("Введённое вами число БОЛЬШЕ того, что загадал компьютер");
+                    pcNumber++;
                 }
             }
-            System.out.println("Р’С‹ СѓРіР°РґР°Р»Рё! " + pcNumber);
+                System.out.println("Вы угадали! " + pcNumber);
+            
+            // int i = pcNumber;
+            // while (i != yourNumber) {
+            //     if (yourNumber < i) {
+            //         int diff = i - yourNumber;
+            //         System.out.println("Введённое вами число меньше того, что загадал компьютер на " + diff);
+            //         i--;
+            //     }
+            //     else if (yourNumber > i) {
+            //         int diff = yourNumber - i;
+            //         System.out.println("Введённое вами число БОЛЬШЕ того, что загадал компьютер на " + diff);
+            //         i++;
+            //     }
+            // }
+            //     System.out.println("Вы угадали! " + pcNumber);
     }
 }
