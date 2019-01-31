@@ -1,6 +1,6 @@
 public class Unicode {
 	public static void main(String[] args) {
 		for(char i = 33; i < 126; i++)
-			System.out.println("Uniñode ñèìâîë " + i);
+			System.out.println("UniÑode ÑÐ¸Ð¼Ð²Ð¾Ð» " + i);
 	}
 }
