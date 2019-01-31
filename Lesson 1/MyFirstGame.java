@@ -6,15 +6,15 @@ public class MyFirstGame {
             while (i != youNumber) {
                 if (youNumber < i) {
                     int diff = i - youNumber;
-                    System.out.println("Введённое вами число меньше того, что загадал компьютер на " + diff);
+                    System.out.println("Р’РІРµРґС‘РЅРЅРѕРµ РІР°РјРё С‡РёСЃР»Рѕ РјРµРЅСЊС€Рµ С‚РѕРіРѕ, С‡С‚Рѕ Р·Р°РіР°РґР°Р» РєРѕРјРїСЊСЋС‚РµСЂ РЅР° " + diff);
                     i--;
                 }
                 else if (youNumber > i) {
                     int diff = youNumber - i;
-                    System.out.println("Введённое вами число БОЛЬШЕ того, что загадал компьютер на " + diff);
+                    System.out.println("Р’РІРµРґС‘РЅРЅРѕРµ РІР°РјРё С‡РёСЃР»Рѕ Р‘РћР›Р¬РЁР• С‚РѕРіРѕ, С‡С‚Рѕ Р·Р°РіР°РґР°Р» РєРѕРјРїСЊСЋС‚РµСЂ РЅР° " + diff);
                     i++;
                 }
             }
-                System.out.println("Вы угадали! " + pcNumber);
+                System.out.println("Р’С‹ СѓРіР°РґР°Р»Рё! " + pcNumber);
     }
 }
