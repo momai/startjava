@@ -3,10 +3,7 @@ public class Calculator {
 		int x = 83;
 		int y = 7;
 		int s = '^';
-
 		int result;
-
-
 		if (s == '+'){
 			result = x + y;
 			System.out.println(result);
@@ -28,7 +25,6 @@ public class Calculator {
 			result = x * y / 100;
 			System.out.println(result);
 		}
-
 		else if (s == '^'){
 			int j = 1;
 			long sum = x;
