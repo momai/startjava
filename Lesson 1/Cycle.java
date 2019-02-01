@@ -17,7 +17,7 @@ public class Cycle {
 		int sum = 0;
 		do {
 			if(j % 2 != 0) {
-				// так писать не правильно
+				// так писать неправильно
 				// sum = sum + j;
 				sum += j;
 			}
