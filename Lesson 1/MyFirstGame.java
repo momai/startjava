@@ -6,8 +6,7 @@ public class MyFirstGame {
             if (yourNumber < pcNumber) {
                 System.out.println("Введённое вами число меньше того, что загадал компьютер");
                 pcNumber--;
-            }
-            else if (yourNumber > pcNumber) {
+            } else if (yourNumber > pcNumber) {
                 System.out.println("Введённое вами число БОЛЬШЕ того, что загадал компьютер");
                 pcNumber++;
             }
