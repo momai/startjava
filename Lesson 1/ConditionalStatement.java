@@ -27,6 +27,6 @@ public class ConditionalStatement {
 			System.out.println("Илон?");
 		} else {
 			System.out.println("Ты не тот кто нужен");
-			}
 		}
 	}
+}

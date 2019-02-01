@@ -17,9 +17,9 @@ public class Calculator {
 		} else if (sign == '^') {
 			long result = 1;
 			for (int i = 1; i <= y; i++) {
-			// так писать неправильно
-			// result = result * x;
-			result *= x;
+				// так писать неправильно
+				// result = result * x;
+				result *= x;
 			}
 			System.out.println(result);
 		}
