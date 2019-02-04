@@ -1,7 +1,7 @@
 public class Calculator {
 	public static void main(String[] args) {
-		int x = 2;
-		int y = 8;
+		int x = 32;
+		int y = 0;
 		char sign = '^';
 
 		if (sign == '+') {
